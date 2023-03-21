@@ -1,0 +1,21 @@
+{
+    "name": "first-coders/telegram",
+    "description": "Telegram bot apiga so'rov yuborish uchun .",
+    "authors": [
+        {
+            "name": "Rizayev Ruslan",
+            "email": "ruslanrizayev33@gmail.com",
+            "homepage": "https://github.com/firstcodersuz"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Telegram\\": "src/"
+        }
+    }
+}
