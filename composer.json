@@ -1,14 +1,29 @@
 {
-    "name": "first-coders/telegram",
-    "description": "Telegram bot apiga so'rov yuborish uchun .",
+    "name": "ruslan/telegrambot",
+    "type": "library",
+    "description": "PHP Telegram bot",
+    "keywords": ["telegram", "bot", "api"],
+    "license": "MIT",
+    "homepage": "https://github.com/my-github-cloud/telegram",
     "authors": [
         {
-            "name": "Rizayev Ruslan",
-            "email": "ruslanrizayev33@gmail.com",
-            "homepage": "https://github.com/firstcodersuz"
+            "name": "Avtandil Kikabidze aka LONGMAN",
+            "email": "akalongman@gmail.com",
+            "homepage": "http://longman.me",
+            "role": "Developer"
+        },
+        {
+            "name": "Armando Lüscher",
+            "email": "armando@noplanman.ch",
+            "homepage": "https://noplanman.ch",
+            "role": "Developer"
+        },
+        {
+            "name": "PHP Telegram Bot Team",
+            "homepage": "https://github.com/php-telegram-bot/core/graphs/contributors",
+            "role": "Developer"
         }
     ],
-    "type": "project",
     "require": {
         "php": "^7.4",
         "guzzlehttp/guzzle": "^7.5"
@@ -17,5 +32,11 @@
         "psr-4": {
             "Telegram\\": "src/"
         }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "process-timeout": 3600
     }
 }
